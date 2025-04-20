@@ -1,5 +1,5 @@
-function handleSubmit(event) {
-    event.preventDefault(); // Yeh ab kaam karega
-    alert("I am submitted");
+function handleSubmit() {
+  
+    console.log("I am submitted");
+    return true
   }
-  handleSubmit()
