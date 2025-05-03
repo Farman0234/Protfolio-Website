@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -10,66 +11,56 @@
       <button><a href="./Index.html">Home</a></button>
       <button><a href="./Contact.html">Contact US</a></button>
     </nav>
-    <hr />
+
     <h1 align="center">Contact Us</h1>
     <table>
       <tr>
         <td>
-          &nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </td>
-        <td><img src="./Services.png" alt="contact" height="450" /></td>
-        <td>
-          &nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </td>
-        <td>
           <form action="" onsubmit="handleSubmit(); return false;">
-            <h1>
-              &nbsp; &nbsp;&nbsp; &nbsp;FULL FREE TO CONTACT US &nbsp;
-              &nbsp;&nbsp; &nbsp;
-            </h1>
-            &nbsp;&nbsp;&nbsp;&nbsp;<input
+            <h1>FULL FREE TO CONTACT US</h1>
+            <input
               type="text"
               placeholder=" Enter your First Name"
               name="First Name"
+              id="First Name"
               size="29"
               required
             />
-            &nbsp;&nbsp;&nbsp;&nbsp;<input
+            <input
               type="text"
               placeholder="Enter Your Second Name"
               name="Second Name"
-              size="29"
-              required
-            /><br /><br />
-            &nbsp;&nbsp;&nbsp;&nbsp;<input
-              type="number"
-              placeholder="Enter Your Mobile Number"
-              name="Mobile Number"
+              id="Second Name"
               size="29"
               required
             />
-            &nbsp;&nbsp;&nbsp;&nbsp;<input
+            <input
+              type="number"
+              placeholder="Enter Your Mobile Number"
+              name="Mobile Number"
+              id="Mobile Number"
+              size="29"
+              required
+            />
+            <input
               type="text"
               placeholder="Enter your Email"
               name="Email"
+              id="Email"
               size="29"
               required
-            /><br /><br />
-            <h4>&nbsp;&nbsp;&nbsp;Enter MessageYour Message</h4>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <textarea name="" id="" rows="10" cols="65" >
+            />
+            <h4>Enter MessageYour Message</h4>
+
+            <textarea name="" id="" rows="10" cols="65">
  Enter Your Message</textarea
             ><br /><br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
             <button>Sudmit</button>
           </form>
         </td>
       </tr>
     </table>
-    <br /><br />
-
     <h2 align="center">Our Location</h2>
     <!-- Map -->
     <iframe
@@ -95,9 +86,10 @@
 
     <h3>Contact us on My Social Platform</h3>
     <br />
+    <div class="no">
     <a href="https://www.facebook.com/farman.anees.75"
-      ><img src="./facebook.png" alt="" height="50" /></a
-    >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      ><img src="./facebook.png" alt="" height="50"
+    /></a>
     <a href="https://www.instagram.com/farman_558266/" target="_blank"
       ><img src="./instagram.jpeg" alt="" height="50"
     /></a>
@@ -107,24 +99,20 @@
     <a href="https://github.com/Farman0234" target="_blank"
       ><img src="./githhub.png" alt="" height="50"
     /></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-      href="mailto:farmananees234@gmail.com"
-      target="_blank"
+    <a href="mailto:farmananees234@gmail.com" target="_blank"
       ><img src="./download.png" alt="" height="50"
     /></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
-      href="https://wa.me/message/LGXHTOFI7DUIM1"
-      target="_blank"
+    <a href="https://wa.me/message/LGXHTOFI7DUIM1" target="_blank"
       ><img src="./download.jpeg" alt="" height="50"
     /></a>
+  </div>
 
     <p><b>Email:</b> farmananees234@gmail.com</p>
     <p><b>Phone:</b> +92 321 5868003</p>
     <p><b>Location:</b> Lahore, Pakistan</p>
 
-    <hr />
 
-    <footer>
+    <footer class="footer">
       <p align="center">© 2025 Farman Anees. All rights reserved.</p>
     </footer>
 
